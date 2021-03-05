@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    
+    z-index: 5;
+}
+
+.navigation{
+   background: white;
+   
+}
+    
+header nav div {
+
+    width:50%;
+    
+}
+
+header nav div img {
+
+    width:100px;
+    height:100px;
+    padding:20px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width:50%;
+}
+header nav ul li{
+    list-style: none;
+    padding:20px;
+    
+}
+
+header nav ul li a{
+   text-decoration: none;
+}
+
+.banner__section .banner__slider img{
+   height:500px
+   
+}
+.banner__slider{
+    overflow: hidden;
+    position: relative;
+}
+
+.banner__slider .slick-prev.fa.fa-caret-left {
+    position: absolute;
+    padding: 20px;
+    z-index:4;
+    top:50%;
+    font-size:20px;
+    
+}
+
+.banner__slider .slick-next.fa.fa-caret-right {
+    position: absolute;
+    padding: 20px;
+    z-index:4;
+    top:50%;
+    right:0%;
+    font-size:20px;
+    
+}
+
+.trending__section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px auto;
+    padding: 10px;
+  
+}
+
+.trending__section .trending__heading{
+   
+
+
+    margin:0 auto;
+    padding: 20px;
+    position: relative;
+    font-size:18px;
+}
+
+.trending__heading h2{
+    padding: 20px;
+}
+.trending__heading span:first-of-type{
+      color: rgb(223, 17, 17);
+     
+      position:absolute;
+      font-size:40px;
+      left:5px;
+      z-index: -5;
+      
+
+}
+
+.heading{
+    margin:0 auto;
+    width:100%;
+    padding:20px;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+.latest___section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+.latest___section .latest_list{
+    width:70%;
+
+    
+}
+
+.latest___section .latest__tags{
+    width:30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    
+}
+
+.details {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:150px;
+    padding: 20px;
+
+
+
+}
+
+.details .picture__section {
+    height:100%;
+    width:40%;
+    text-align: center;
+    padding:20px;
+}
+
+.details .picture__section img {
+    max-height:100%;
+    max-width:100%;
+}
+
+.details .content__section{
+    height:100%;
+    width:60%;
+    
+}
+
+.list__category {
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list__category a{
+    margin: 10px;
+    padding:10px;
+    color:rgb(201, 13, 13)
+}
